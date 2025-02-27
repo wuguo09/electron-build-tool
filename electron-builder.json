@@ -1,0 +1,17 @@
+{
+  "appId": "hongensiPark",
+  "productName": "hongensiPark",
+  "copyright": "Copyright © 2021 <your-name>",
+  "mac": {
+    "category": "public.app-category.utilities"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  },
+  "files": ["dist/**/*", "electron/**/*"],
+  "directories": {
+    "buildResources": "assets",
+    "output": "dist_electron"
+  }
+}

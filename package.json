@@ -1,0 +1,17 @@
+{
+  "name": "hongensiPark",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "license": "MIT",
+  "sideEffects": [
+    "dist/*"
+  ],
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "26.0.0",
+    "electron-builder": "^25.1.8"
+  }
+}
